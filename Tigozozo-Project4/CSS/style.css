@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Josefin Sans;
+   
+  }
+
+ .dark-mode {
+   background-color: black;
+   color: white;
+ }
+
+ .dark-mode .p2 img {
+     background-color: white;
+     border-radius: 50%;
+ }
+
+ .dark-mode .p1 img {
+    background-color: #742296;
+   border-radius: 50%; 
+}
+
+
+
+.dark-mode .navbar ul a{
+   color: white;
+}
+
+.dark-mode #icon{
+   background-color: white;
+   border: 2px solid;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+   
+   color: #742296;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   font-size: 23px;
+   width: 200px;
+   margin: 30px;
+ }
+
+ .dropbtn span{
+   color: #742296;
+ }
+ 
+ 
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: white ;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ /* Links inside the dropdown */
+ .dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+
+.dark-mode  .dropdown-content a {
+   background-color: #73229692;   
+ }
+ 
+ /* Change color of dropdown links on hover */
+ .dropdown-content a:hover {background-color: #ddd}
+ 
+ /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+ .show {display:block;}
+
+
+ /* other links on hover & focus */
+ .navbar a:hover{
+    color:  #742296;
+ }
+ 
+
+ .navbar{
+   position: absolute;
+   padding-top: 10px;
+ }
+
+ .navbar  .brand{
+   width: 180px;
+   margin-left: 20px;
+ }
+
+ .navbar ul a{
+   text-decoration: none;
+   color: black;
+   font-size: 23px;
+ 
+ }
+
+ .navbar ul{
+   margin-right: 250px;
+ }
+
+ .navbar #icon{
+     height: 35px;
+     position: relative;
+    right: 110px;
+    border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
+   }
+
+ .navbar #icon:hover {
+   -webkit-transform: rotate(180deg); /* Safari */
+   transform: rotate(360deg);
+ }
+
+
+
+ 
+
+
+
+
+.hero{
+    margin-left: 100px; 
+    margin-top: 120px;
+ }
+
+.hero .pic1{
+    margin-top: 80px;
+ }
+.hero .pic3{
+    margin-top: 80px;
+ }
+
+.hero .div1{
+    margin-top: 160px;
+
+ }
+
+.hero h1{
+     
+    font-weight: bolder;
+ }
+ 
+
+.hero p{
+    font-size: 20px;
+ }
+ .dark-mode .hero 
+
+.hero .p1{
+    font-size: 18px;
+   
+}
+.hero .p2{
+    font-size: 18px;
+ }
+
+.hero .btn1{
+    background-color: #742296;
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    
+ }
+
+.dark-mode .hero .btn1{
+   color: black;
+ }
+
+.hero .btn2{
+    border: 5px solid #742296;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    
+ }
+ .dark-mode .btn2{
+   color: white;
+ }
+
+.hero .p1 img{
+   height: 30px;
+   
+}
+
+.hero .p2 img{
+   height: 25px;
+}
+
+
+.hero .p1 img:hover{
+   transform: scale(1.3,1.3)
+}
+
+
+.hero .p2 img:hover{
+   transform: scale(1.3,1.3)
+}
+
+
+
+.about{
+    padding-top: 150px;
+ }
+
+
+.about .pic2{
+   position: relative;
+   padding-top: 60px;
+ }
+
+.about button{
+    background-color: #742296;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 120px;
+    
+ }
+
+.about h4{
+    padding-bottom: 30px;
+ }
+
+.about .youtube-vd{
+    background-image: url(../images/dances.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+}
+
+.youtube-vd .opacity{
+    background-color:rgba(24, 20, 20, 0.55) ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-vd img{
+    height: 50px;
+}
+
+.about .div2 p{
+    margin-top: 20px;
+}
+
+
+.services {
+    padding-top: 140px;
+ }
+
+.services h4{
+    padding-bottom: 40px;
+ }
+
+
+
+.services .pic1{
+    background-image: url(../images/About1.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+  }
+
+
+.services .pic2{
+     background-image: url(../images/About3.png);
+     background-position: center;
+     background-size: cover;
+     height: 500px;
+     width: 304px;
+ }
+
+.services .overlay{
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(24, 20, 20, 0.702));
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ } 
+
+ .services img{
+    width: 40px;
+    position: relative;
+   left: 91px;
+ }
+
+
+ .services .cards{
+    background-color: #742296;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   flex-direction: column;
+    color: white; 
+    padding: 30px;
+  }
+
+ .services .cancel{
+    background-color:white;
+    height: 35px;
+    width: 35px;
+    border: 5px solid white;
+    position: relative;
+    left: 265px;
+    top: 35px;
+ }
+
+.services .active{
+    border-bottom: 2px solid white;
+    width: 70px;
+    
+  }
+.services  ol{
+    font-size: 20px;
+    line-height: 35px;
+    
+ }
+
+.happy-clients{
+       padding-top: 140px;
+ }
+
+.happy-clients .pic1{
+    background-image: url(../images/Happy1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+ }
+
+.happy-clients .pic2{
+    background-image: url(../images/Happy2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+.happy-clients .div2{
+    position: relative;
+    bottom: 80px;
+ } 
+ 
+ .happy-clients span{
+    font-weight:normal;
+ }
+
+ .happy-clients h4{
+    margin:20px 0px;
+ }
+
+ .happy-clients p{
+    margin:20px 0px;
+ }
+
+ .happy-clients img{
+    height: 50px;
+    }
+    
+.gallery{
+        padding: 80px 270px;
+        text-align: center;
+        
+  }  
+  
+  
+.gallery .s2{
+    font-family: Great vibes;
+    font-size: 40px;
+    font-weight:lighter;
+  
+ }  
+
+ .gallery .s1{
+    font-size: 30px;
+    font-weight: bolder;
+ }
+
+
+.gallery .pic2{
+    position: relative;
+    top: 80px;
+ }
+
+.gallery p{
+    margin-top: 150px;
+    font-size: 20px;
+ }
+
+.gallery .images{
+    padding-top: 30px;
+ }
+
+.gallery button{
+     width: 90px;
+     height: 35px;
+     border: none;
+     background-color: #742296;
+     color: white;
+ }
+
+ footer{
+    background-color: #742296;
+   
+ }
+
+ footer img{
+      width: 100px;
+     
+ }
+
+ footer .div1 p{
+    margin-top: 20px;
+   font-size: 15px;
+  
+ }
+
+ footer .div1 .fb{
+   height: 20px;
+   width: 20px;
+    
+ }
+
+ footer h5{
+   line-height: 10px;
+   
+ }
+
+ footer .div1{
+   margin-left: 50px;
+}
+
+
+ footer .div2{
+    margin-left: 50px;
+ }
+
+
+ footer .div3{
+    margin-left: 50px;
+ }
+
+
+ footer .div4{
+    margin-left: 50px;
+ }
+
+ footer p{
+    font-size: 18px;
+ }
+ footer p img{
+   height:15px;
+   width: 20px;
+ }
+
+ footer p .location-icon{
+   height:25px;
+   width: 20px;
+ }
+ footer .line{
+  background-color:white;
+   height: 4px;
+   width: 200px;
+ }
+
+
+
+
+
